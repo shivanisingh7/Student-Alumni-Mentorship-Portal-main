@@ -1,0 +1,81 @@
+{
+  "name": "demo5",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:4000",
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/lab": "^5.0.0-alpha.153",
+    "@mui/material": "^5.14.19",
+    "@mui/system": "^5.14.16",
+    "@supabase/auth-helpers-react": "^0.4.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.0",
+    "chart.js": "^4.4.1",
+    "cors": "^2.8.5",
+    "date-fns": "^3.0.0-alpha.2",
+    "react": "^18.2.0",
+    "react-big-calendar": "^1.8.5",
+    "react-calendar": "^4.6.1",
+    "react-chat-elements": "^12.0.10",
+    "react-datepicker": "^4.24.0",
+    "react-datetime-picker": "^5.5.3",
+    "react-dom": "^18.2.0",
+    "react-google-calendar-api": "^2.3.0",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-bottom": "^4.2.0",
+    "recharts": "^2.9.0",
+    "socket.io-client": "^4.7.2",
+    "stream-chat": "^8.14.1",
+    "stream-chat-react": "^10.18.0",
+    "timeago.js": "^4.0.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "set PORT=5000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "@testing-library/cypress": "^10.0.1",
+    "babel-jest": "^29.7.0",
+    "cypress": "^13.6.0",
+    "esm": "^3.2.25"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
